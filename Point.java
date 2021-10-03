@@ -7,7 +7,7 @@ import java.util.Objects;
 
 
 public class Point {
-	private int x, y;
+	private int x, y; /* pour etre immutable definir toutes les attribus comme final private et redefinir la methode translate.*/
 	static int number_of_points;
 
 	public Point(int x, int y) {
@@ -90,7 +90,7 @@ class PolyLine {
 	static private int number_of_points;
 
 	public PolyLine() {
-		number_of_points = getNumber_of_points() + 1;
+		number_of_points = getNumber_of_points() + 1; 
 	}
 
 //	public PolyLine(int maximum_number_of_points) {
@@ -104,7 +104,7 @@ class PolyLine {
 	}
 
 	public void add(Point p) {
-		Objects.requireNonNull(p, "The point must not be null");
+		Objects.requireNonNull(p, "The point must not be null"); 
 		// liste_de_point[i] = p;
 		liste_de_point.add(p);
 	}
