@@ -7,6 +7,7 @@ import java.util.Objects;
 
 /* Exercice 1 :
  * 
+ * 
  * 2. Eclypse écrit directement System.out.println() lorsque l'on écrit sysout et Ctrl + Space.
  * 3. Eclypse propose de faire un Override de la méthode toString().
  * 4. Eclypse propose de faire apparaître la main méthode directement.
